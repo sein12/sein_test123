@@ -1,10 +1,9 @@
-import Page from "./pages/Page";
-import ControlledForm from "./pages/ControlledForm";
+import Page from "./components/Page";
 
 function App() {
   return (
     <div>
-      <ControlledForm />
+      <Page />
     </div>
   );
 }
